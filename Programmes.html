@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!--Flickty CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <title>Programmes</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0774ab12;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/les_films_en_plein_air_petit.png" alt="" width="75" height="36"
+                  class="d-inline-block align-text-top">
+              </a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Programmes.html">Programme</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Reservation.html">Reservation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Ou_Sommes_nous.html">Ou sommes-nous</a>
+                  </li>
+              </ul>
+              <form class="form-inline md-form my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Rechercher" aria-label="Rechercher">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+              </form>
+      
+              
+          </nav>
+
+    </header>
+
+    <!-- Code séance 5 août-->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="seance-title"> Séance du 05 août</h2>
+
+            <!-- Images pour lancer le modal -->
+            <div class="row margin-row">
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#AmericanNightmare" role="button"
+                        aria-pressed="true">
+                        <img class="img-fluid" id="myImg" src="images/AmericanNightmare.jpg" alt="AmericanNightmare"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#IceRoad" role="button"
+                        aria-pressed="true">
+                        <img class="img-fluid" id="myImg" src="images/IceRoad.jpg" alt="IceRoad"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code séance 6 août-->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="seance-title"> Séance du 06 août</h2>
+            <div class="row margin-row">
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#OSS117" role="button"
+                        aria-pressed="true">
+                        <img class="img-fluid" id="myImg" src="images/OSS117.jpg" alt="OSS117"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#Le ryhtme de la veangeance" role="button"
+                        aria-pressed="true">
+                        <img class="img-fluid" id="myImg" src="images/Le_Rythme_de_la_vengeance.jpg" alt="Le Rythme de la veangeance"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code séance 7 août-->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="seance-title"> Séance du 07 août</h2>
+            <div class="row margin-row">
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#Vivo" role="button" aria-pressed="true">
+                        <img id="myImg" src="images/Vivo.jpg" alt="Vivo"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#Aftermath" role="button"
+                        aria-pressed="true">
+                        <img class="img-fluid" id="myImg" src="images/Aftermath.jpg" alt="Aftermath"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code séance 8 août-->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="seance-title"> Séance du 08 août</h2>
+            <div class="row margin-row">
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#Le tour du monde en 80 jours"
+                        role="button" aria-pressed="true">
+                        <img class="img-fluid"id="myImg" src="images/Le tour du monde en 80 jours.jpg" alt="Le tour du monde en 80 jours"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-6 col-xs-3 col-sm-3 col-lg-3">
+                    <button class="btn_film" data-toggle="modal" data-target="#Messe Basse" role="button"
+                        aria-pressed="true">
+                        <img class="img-fluid" id="myImg" src="images/MesseBasse.jpg" alt="Messe Basse"
+                            style="width:100%;">
+                    </button>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Déclaration des modals -->
+
+    <!-- Modal American Nightmare -->
+
+    <div id="AmericanNightmare" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">American Nightmare</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid img-responsive" src="images/AmericanNightmare.jpg" alt="American Nightmare" >
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+
+                            <div>
+                                Séance : 18h30
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Everardo Gout.
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Josh Lucas , Tenoch Huerta , Ana de la Reguera , Will Paiton.
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Adela et son mari Juan habitent au Texas, où Juan travaille dans le ranch de la très
+                                aisée famille Tucker. Juan gagne l’estime du patriarche Caleb Tucker, ce qui déclenche
+                                la jalousie de Dylan son fils. La matinée suivant le déchainement nocturne de violence
+                                annuelle, un groupe masqué attaque la famille Tucker, dont la femme de Dylan, et sa
+                                sœur, forçant les deux familles à s’unir et organiser une riposte alors que le pays
+                                entier sombre dans la spirale du chaos et que les États-Unis se désagrègent petit à
+                                petit autour d’eux.
+                            </p>
+
+
+
+                            <a href="https://www.youtube.com/watch?v=D3tJVugf4FU" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block"> Bande
+                                annonce</a>
+
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal Ice Road -->
+
+    <div id="IceRoad" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Ice Road</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/IceRoad.jpg" alt="Ice Road"
+                                style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 21h00
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Jonathan Hensleigh
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Liam Neeson , Marcus Thomas , Laurence Fishburne, Amber Midthunder
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Une mine de diamants s’effondre dans le Grand Nord canadien et piège près de trente
+                                mineurs. Pour mener une mission de sauvetage périlleuse, Jim Goldenrod engage Mike
+                                McCann, un conducteur de camion expérimenté. Ils vont mener un convoi qui va emprunter
+                                la « route de glace », un océan gelé et instable qui couvre les presque 500 km du lac
+                                Winnipeg. Aux intempéries et avaries mécaniques, s’ajoute une série d’attaques
+                                mystérieuses, qui prouvent que quelqu’un n’a pas intérêt à ce que ce sauvetage ait lieu…
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=cSQjaS_kUPk" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block" style="margin-bottom: 5%;"> Bande
+                                annonce</a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal OSS117 -->
+
+    <div id="OSS117" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">OSS117</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/OSS117.jpg" alt="Ice Road"
+                                style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 18h30
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Nicolas Bedos
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Jean Dujardin , Pierre Niney , Wladimir Yordanoff , Fatou N'Diaye
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                1981. Hubert Bonisseur de La Bath, alias OSS 117, est de retour. Pour cette nouvelle
+                                mission, plus délicate, plus périlleuse et plus torride que jamais, il est contraint de
+                                faire équipe avec un jeune collègue, le prometteur OSS 1001.
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=I0aviu-FqNo" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block" > Bande
+                                annonce</a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Le rythme de la veangeance -->
+
+    <div id="Le ryhtme de la veangeance" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Le ryhtme de la veangeance</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/Le_Rythme_de_la_vengeance.jpg"
+                                alt="Le ryhtme de la veangeance" style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 21h00
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Reed Morano
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Blake Lively , Jude Law , Sterling K. Brown , Ivana Bašić
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Après la disparition de sa famille dans un accident d'avion, une femme, qui aurait du
+                                être à bord de l'appareil, s'auto-détruit. Lorsqu'elle réalise qu'il ne s'agissait pas
+                                d'un accident, elle devient une tueuse à la recherche des responsables.
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=K3xDAg1oZMc" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block"> Bande annonce
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Vivo -->
+
+    <div id="Vivo" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Vivo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/Vivo.jpg" alt="Vivo" style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 18h30
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Kirk De Micco , Brandon Jeffords
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Lin-Manuel Miranda , Juan de Marcos González , Gloria Estefan
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Un kinkajou mélomane se lance dans un incroyable périple afin de livrer une chanson
+                                d'amour au nom d'un vieil ami et ainsi accomplir sa destinée.
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=ijJ28JIJYIA" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block"> Bande annonce
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Aftermath-->
+
+    <div id="Aftermath" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Aftermath</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/Aftermath.jpg" alt="Aftermath"
+                                style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 21h00
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Peter Winther
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Ashley Greene , Shawn Ashmore , Britt Baron
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Un couple à bout de souffle accepte d'emménager dans une maison qui serait au-dessus de
+                                leurs moyens si les murs n'avaient pas un passé douteux. Dans une ultime tentative de
+                                repartir à zéro, ils acceptent l'offre. Peu de temps après, les amoureux sont victimes
+                                de faits étranges...
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=sjqDKxRRL0U" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block"> Bande annonce
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Le tour du monde en 80 jours-->
+
+    <div id="Le tour du monde en 80 jours" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Le tour du monde en 80 jours</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/Le tour du monde en 80 jours.jpg"
+                                alt="Le tour du monde en 80 jours" style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 18h30
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Samuel Tourneux
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Damien Ferrette , Julien Crampon , Kaycie Chase
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Passepartout, un ouistiti naïf mais plein d’entrain, rêve de partir à l’aventure depuis
+                                toujours. L’occasion se présente sous la forme de Phileas Frog, un explorateur vanneur
+                                et arnaqueur, et d’un pari à plusieurs millions : établir le nouveau record du tour du
+                                monde en 80 jours. De déserts brûlants en jungles mystérieuses, de princesses intrépides
+                                en criquets adorateurs de volcan, Passepartout va découvrir à quel point le monde est
+                                vaste, merveilleux et dingo.
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=zFK1ARoPMd4" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block"> Bande annonce
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Messe Basse -->
+
+    <div id="Messe Basse" class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Messe Basse</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <img class="img_modal img-fluid" src="images/MesseBasse.jpg" alt="Messe Basse"
+                                style="width:100%;">
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            <div>
+                                Séance : 21h00
+                            </div>
+                            </br>
+                            <div>
+                                Réalisé par : Baptiste Drapeau
+                            </div>
+                            </br>
+                            <div>
+                                Avec : Jacqueline Bisset , Alice Isaaz , Bastien Ughetto
+                            </div>
+                            </br>
+
+                            <h5>
+                                Synopsis et détails
+                            </h5>
+
+                            <p>
+                                Dans une grande maison bourgeoise, deux femmes, une veuve et une étudiante, se disputent
+                                l’amour d’un homme disparu jusqu’à sombrer dans la folie.
+                            </p>
+
+                            <a href="https://www.youtube.com/watch?v=BuGDDGdgqsM" role="button"
+                                class="btn btn-outline-primary btn-lg btn-block"> Bande annonce
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="Reservation.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-sm-center m-5">
+          <li class="page-item">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item "><a class="page-link" href="#">1</a></li>
+          <li class="page-item "><a class="page-link" href="#">2</a></li>
+          <li class="page-item "><a class="page-link" href="#">3</a></li>
+          <li class="page-item ">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+    <footer>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #0774ab; color: white;">
+
+            © 2022 Copyright
+            <a class="text-white" href="https://lesfilmsenpleinairmonceau.000webhostapp.com/">Les films en plein air</a>
+          </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+
+</body>
+
+</html>

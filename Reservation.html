@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Google Fonts-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+
+  <!--Flickty CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <title>Reservation</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0774ab12;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/les_films_en_plein_air_petit.png" alt="" width="75" height="36"
+          class="d-inline-block align-text-top">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Programmes.html">Programme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Reservation.html">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Ou_Sommes_nous.html">Ou sommes-nous</a>
+          </li>
+        </ul>
+        <form class="form-inline md-form my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Rechercher" aria-label="Rechercher">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+        </form>
+
+
+    </nav>
+
+  </header>
+
+  <body>
+    <section>
+      <div>
+        <h2 class="h1-responsive font-weight-bold text-center my-4 seance-title">Reservation</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Réservez votre place de cinéma. Pour toutes demandes
+          supérieures à 5 places, merci de nous contacter via le formulaire de <a href="Contact.html">contact</a></p>
+      </div>
+      <form class="reservation">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label>Prénom</label>
+            <input type="text" class="form-control" placeholder="Jason">
+          </div>
+          <div class="form-group col-md-6">
+            <label>Nom</label>
+            <input type="text" class="form-control" placeholder="Mason">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="jmason@yahoo.fr">
+          </div>
+          <div class="form-group col-md-6">
+            <label>Téléphone</label>
+            <input type="tel" class="form-control" placeholder="0601020304">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="Place">Nombre de place</label>
+            <select class="form-control" id="Place">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="Seance">Séance</label>
+            <select id="seance" class="form-control" Place>
+              <option value selected disabled>Votre séance</option>
+              <optgroup label="Films du 05/08/2022">
+                <option>American Nightmare</option>
+                <option>Ice Road</option>
+              </optgroup>
+              <optgroup label="Films du 06/08/2022">
+                <option>OSS 117</option>
+                <option>Le rythme de la veangeance</option>
+              </optgroup>
+              <optgroup label="Films du 07/08/2022">
+                <option>Vivo</option>
+                <option>Aftermath</option>
+              </optgroup>
+              <optgroup label="Films du 08/08/2022">
+                <option>Le tour du monde en 80 jours</option>
+                <option>Messe Basse</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="CGU">
+            <label class="form-check-label" for="CGU">
+              J'accepte les conditions générales d'utilisations
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Réserver</button>
+      </form>
+
+
+    </section>
+    <footer class="fixed-bottom">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #0774ab; color: white;">
+
+        © 2022 Copyright
+        <a class="text-white" href="https://lesfilmsenpleinairmonceau.000webhostapp.com/">Les films en plein air</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+
+</html>

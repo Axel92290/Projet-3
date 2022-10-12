@@ -1,0 +1,241 @@
+
+nav {
+    font-family: 'Arvo', serif;
+  }
+  
+  body {
+    
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+  }
+  
+  h4 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+  }
+  
+  h5 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+  }
+  
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  
+  
+  .seance-title {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 5% 20% 5% 20%;
+    background-color: #0774AB12;
+  }
+  .film-title{
+    text-align: left;
+  }
+  
+  .title-adjust {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center !important;
+    color: white;
+    background-color: #0774AB;
+  
+  }
+  
+  .container-fluid {
+    margin-top: 5%;
+  }
+  
+  .btn-success {
+    background-color: #0774AB;
+    border-color: #0774AB;
+  }
+  
+  img.d-block {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .btn_film{
+    border : none !important;
+    outline : none !important;
+    padding : 0 0 0 0;
+  }
+  
+  .reservation{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#0774AB12 ;
+    border: 5px solid #0774AB;
+    padding: 5%;
+  }
+  
+  .img_modal{
+    margin-bottom: 5%;
+  
+  }
+  
+  .btn-outline-success{
+    color: #0774AB !important;
+    border-color: #0774AB12 !important;
+  
+  }
+  
+  .btn-outline-success:hover{
+    background-color: white;
+  }
+  
+  
+  
+  div.contenu.col-xs-12.col-sm-12.col-lg-6.align-center.m-auto {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  div.row.bg_section {
+    text-align: center;
+    margin: 5% 20% 0% 20%;
+  }
+  
+  
+  
+  /*Modal*/
+  
+  /* Style the Image Used to Trigger the Modal */
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #0774AB;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #0774AB;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 300px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  
+  
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+div.flickity-viewport {
+    background: #0774AB12
+  }
+
+.carousel-cell-image {
+  display: block;
+  height: 400px;
+  min-width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+    fill: #0774AB;
+  }
+  
+  .flickity-prev-next-button.no-svg {
+    color: #0774AB;
+  }
+  
+  /* closer to edge */
+  .flickity-prev-next-button.previous {
+    left: 0;
+  }
+  
+  .flickity-prev-next-button.next {
+    right: 0;
+  }
+  
+  /* hide disabled button */
+  .flickity-prev-next-button:disabled {
+    display: none;
+  }
+
+  div.col-xs-12.col-sm-12.col-lg-12.carousel.flickity-enabled.is-draggable{
+    margin: 1% 0% 10% 0%;
+  }
